@@ -1,0 +1,37 @@
+[0.042s] Invoking command in '/home/eleanorlow/robo1/build/robo1_haje': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eleanorlow/robo1/src/Robo1_HAJE -DCMAKE_INSTALL_PREFIX=/home/eleanorlow/robo1/install/robo1_haje
+[1.142s] -- The C compiler identification is GNU 11.4.0
+[1.655s] -- The CXX compiler identification is GNU 11.4.0
+[1.754s] -- Detecting C compiler ABI info
+[1.911s] -- Detecting C compiler ABI info - done
+[1.922s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.922s] -- Detecting C compile features
+[1.931s] -- Detecting C compile features - done
+[1.941s] -- Detecting CXX compiler ABI info
+[2.042s] -- Detecting CXX compiler ABI info - done
+[2.047s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.047s] -- Detecting CXX compile features
+[2.047s] -- Detecting CXX compile features - done
+[2.195s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.428s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.750s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[3.206s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.229s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.244s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.335s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.503s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.520s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.828s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.878s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.908s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.011s] -- Looking for pthread.h
+[4.334s] -- Looking for pthread.h - found
+[4.334s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.440s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.441s] -- Found Threads: TRUE  
+[4.620s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[4.839s] -- Found rclcpp_action: 16.0.14 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.930s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.021s] -- Configuring done
+[5.072s] -- Generating done
+[5.080s] -- Build files have been written to: /home/eleanorlow/robo1/build/robo1_haje

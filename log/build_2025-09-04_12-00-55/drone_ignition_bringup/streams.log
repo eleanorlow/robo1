@@ -1,0 +1,98 @@
+[0.051s] Invoking command in '/home/eleanorlow/robo1/build/drone_ignition_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eleanorlow/robo1/src/drone_ignition_bringup -DCMAKE_INSTALL_PREFIX=/home/eleanorlow/robo1/install/drone_ignition_bringup
+[1.147s] -- The C compiler identification is GNU 11.4.0
+[1.276s] -- The CXX compiler identification is GNU 11.4.0
+[1.326s] -- Detecting C compiler ABI info
+[1.491s] -- Detecting C compiler ABI info - done
+[1.497s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.497s] -- Detecting C compile features
+[1.512s] -- Detecting C compile features - done
+[1.523s] -- Detecting CXX compiler ABI info
+[1.636s] -- Detecting CXX compiler ABI info - done
+[1.642s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.642s] -- Detecting CXX compile features
+[1.642s] -- Detecting CXX compile features - done
+[1.743s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.005s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.256s] -- Found ros_ign_interfaces: 0.244.20 (/opt/ros/humble/share/ros_ign_interfaces/cmake)
+[2.488s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.510s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.523s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.576s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.641s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.930s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.113s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.135s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.137s] -- Added test 'lint_cmake' to check CMake code style
+[3.139s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.144s] -- Added test 'xmllint' to check XML markup files
+[3.146s] -- Configuring done
+[3.150s] -- Generating done
+[3.152s] -- Build files have been written to: /home/eleanorlow/robo1/build/drone_ignition_bringup
+[3.156s] Invoked command in '/home/eleanorlow/robo1/build/drone_ignition_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eleanorlow/robo1/src/drone_ignition_bringup -DCMAKE_INSTALL_PREFIX=/home/eleanorlow/robo1/install/drone_ignition_bringup
+[3.157s] Invoking command in '/home/eleanorlow/robo1/build/drone_ignition_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eleanorlow/robo1/build/drone_ignition_bringup -- -j8 -l8
+[3.189s] Invoked command in '/home/eleanorlow/robo1/build/drone_ignition_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eleanorlow/robo1/build/drone_ignition_bringup -- -j8 -l8
+[3.190s] Invoking command in '/home/eleanorlow/robo1/build/drone_ignition_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eleanorlow/robo1/build/drone_ignition_bringup
+[3.195s] -- Install configuration: ""
+[3.195s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/config
+[3.195s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/config/slam_params.yaml
+[3.195s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/config/drone.rviz
+[3.195s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/config/gazebo_bridge.yaml
+[3.195s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/config/nav2_params.yaml
+[3.195s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/config/robot_localization.yaml
+[3.195s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/launch
+[3.196s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/launch/drone_ignition.launch.py
+[3.196s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/launch/drone_navigation.launch.py
+[3.196s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models
+[3.196s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_wall
+[3.196s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_wall/model.sdf
+[3.196s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_wall/materials
+[3.196s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_wall/materials/textures
+[3.196s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_wall/materials/textures/forest_wall.png
+[3.197s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_wall/materials/textures/forest_wall_transparent.png
+[3.198s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_wall/materials/textures/forest_wall_transparent_small.png
+[3.198s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_wall/model.config
+[3.198s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/grass_plane
+[3.199s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/grass_plane/model.sdf
+[3.199s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/grass_plane/materials
+[3.199s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/grass_plane/materials/textures
+[3.199s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/grass_plane/materials/textures/empty_grass.png
+[3.200s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/grass_plane/model.config
+[3.201s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_plane
+[3.201s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_plane/model.sdf
+[3.201s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_plane/materials
+[3.201s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_plane/materials/textures
+[3.201s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_plane/materials/textures/forest_overhead.png
+[3.202s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_plane/materials/textures/leaf_litter.png
+[3.203s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_plane/materials/textures/empty_grass.png
+[3.205s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/models/forest_plane/model.config
+[3.205s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/urdf
+[3.205s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/urdf/meshes
+[3.205s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/urdf/meshes/top_plate.dae
+[3.205s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/urdf/meshes/wheel.dae
+[3.206s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/urdf/meshes/bumper.dae
+[3.206s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/urdf/meshes/base_link.dae
+[3.207s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/urdf/meshes/jpl04_arch_nosensor.stl
+[3.207s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/urdf/meshes/top_chassis.dae
+[3.208s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/urdf/husky.gazebo.xacro
+[3.208s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/urdf/wheel.urdf.xacro
+[3.208s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/urdf/husky.urdf.xacro
+[3.208s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/urdf/common_properties.urdf.xacro
+[3.208s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/worlds
+[3.208s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/worlds/large_demo.sdf
+[3.208s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/worlds/simple_trees.sdf
+[3.208s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/ament_index/resource_index/package_run_dependencies/drone_ignition_bringup
+[3.209s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/ament_index/resource_index/parent_prefix_path/drone_ignition_bringup
+[3.209s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/environment/ament_prefix_path.sh
+[3.209s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/environment/ament_prefix_path.dsv
+[3.209s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/environment/path.sh
+[3.209s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/environment/path.dsv
+[3.209s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/local_setup.bash
+[3.209s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/local_setup.sh
+[3.209s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/local_setup.zsh
+[3.209s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/local_setup.dsv
+[3.209s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/package.dsv
+[3.210s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/ament_index/resource_index/packages/drone_ignition_bringup
+[3.210s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/cmake/drone_ignition_bringupConfig.cmake
+[3.210s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/cmake/drone_ignition_bringupConfig-version.cmake
+[3.210s] -- Installing: /home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/package.xml
+[3.212s] Invoked command in '/home/eleanorlow/robo1/build/drone_ignition_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eleanorlow/robo1/build/drone_ignition_bringup

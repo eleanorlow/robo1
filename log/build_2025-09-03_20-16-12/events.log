@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000466] (41068_ignition_bringup) JobQueued: {'identifier': '41068_ignition_bringup', 'dependencies': OrderedDict()}
+[0.000495] (robo1_haje) JobQueued: {'identifier': 'robo1_haje', 'dependencies': OrderedDict()}
+[0.000572] (41068_ignition_bringup) JobStarted: {'identifier': '41068_ignition_bringup'}
+[0.013936] (robo1_haje) JobStarted: {'identifier': 'robo1_haje'}
+[0.016328] (41068_ignition_bringup) JobProgress: {'identifier': '41068_ignition_bringup', 'progress': 'cmake'}
+[0.016595] (41068_ignition_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/eleanorlow/robo1/src/41068_ignition_bringup', '-DCMAKE_INSTALL_PREFIX=/home/eleanorlow/robo1/install/41068_ignition_bringup'], 'cwd': '/home/eleanorlow/robo1/build/41068_ignition_bringup', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/opt/ros/humble/share/as2_gazebo_assets/worlds:/opt/ros/humble/share/as2_gazebo_assets/models'), ('LANGUAGE', 'en_AU:en'), ('USER', 'eleanorlow'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eleanorlow'), ('OLDPWD', '/home/eleanorlow'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1077'), ('SYSTEMD_EXEC_PID', '1730'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '34365'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eleanorlow'), ('JOURNAL_STREAM', '8:5810'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eleanorlow'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bethany:@/tmp/.ICE-unix/1699,unix/bethany:/tmp/.ICE-unix/1699'), ('INVOCATION_ID', '7e2e002fe72943a3b55813aa6c6e0705'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OVBFC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b8b29fb5-a3f2-42fc-a4f5-46f1957dfba8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eleanorlow/robo1/build/41068_ignition_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.052840] (robo1_haje) JobProgress: {'identifier': 'robo1_haje', 'progress': 'cmake'}
+[0.053536] (robo1_haje) Command: {'cmd': ['/usr/bin/cmake', '/home/eleanorlow/robo1/src/Robo1_HAJE', '-DCMAKE_INSTALL_PREFIX=/home/eleanorlow/robo1/install/robo1_haje'], 'cwd': '/home/eleanorlow/robo1/build/robo1_haje', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/opt/ros/humble/share/as2_gazebo_assets/worlds:/opt/ros/humble/share/as2_gazebo_assets/models'), ('LANGUAGE', 'en_AU:en'), ('USER', 'eleanorlow'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eleanorlow'), ('OLDPWD', '/home/eleanorlow'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1077'), ('SYSTEMD_EXEC_PID', '1730'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '34365'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eleanorlow'), ('JOURNAL_STREAM', '8:5810'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eleanorlow'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bethany:@/tmp/.ICE-unix/1699,unix/bethany:/tmp/.ICE-unix/1699'), ('INVOCATION_ID', '7e2e002fe72943a3b55813aa6c6e0705'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OVBFC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b8b29fb5-a3f2-42fc-a4f5-46f1957dfba8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eleanorlow/robo1/build/robo1_haje'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100019] (-) TimerEvent: {}
+[0.200465] (-) TimerEvent: {}
+[0.301027] (-) TimerEvent: {}
+[0.401592] (-) TimerEvent: {}
+[0.502091] (-) TimerEvent: {}
+[0.602597] (-) TimerEvent: {}
+[0.703113] (-) TimerEvent: {}
+[0.803578] (-) TimerEvent: {}
+[0.903985] (-) TimerEvent: {}
+[1.004384] (-) TimerEvent: {}
+[1.104808] (-) TimerEvent: {}
+[1.155904] (41068_ignition_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.156159] (robo1_haje) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.204952] (-) TimerEvent: {}
+[1.305520] (-) TimerEvent: {}
+[1.406148] (-) TimerEvent: {}
+[1.506601] (-) TimerEvent: {}
+[1.606957] (-) TimerEvent: {}
+[1.668757] (41068_ignition_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.668933] (robo1_haje) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.707099] (-) TimerEvent: {}
+[1.767915] (robo1_haje) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.768101] (41068_ignition_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.807237] (-) TimerEvent: {}
+[1.907730] (-) TimerEvent: {}
+[1.924869] (robo1_haje) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.924995] (41068_ignition_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.935304] (41068_ignition_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.935445] (robo1_haje) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.935662] (robo1_haje) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.935767] (41068_ignition_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.944666] (41068_ignition_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.944765] (robo1_haje) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.954451] (robo1_haje) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.954597] (41068_ignition_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.007892] (-) TimerEvent: {}
+[2.055279] (41068_ignition_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.055441] (robo1_haje) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.060616] (41068_ignition_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.060730] (robo1_haje) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.060802] (41068_ignition_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.060927] (robo1_haje) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.061114] (41068_ignition_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.061262] (robo1_haje) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.108110] (-) TimerEvent: {}
+[2.208144] (robo1_haje) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.208514] (-) TimerEvent: {}
+[2.208601] (41068_ignition_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.308609] (-) TimerEvent: {}
+[2.408827] (-) TimerEvent: {}
+[2.441716] (robo1_haje) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.441882] (41068_ignition_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.509073] (-) TimerEvent: {}
+[2.609346] (-) TimerEvent: {}
+[2.709740] (-) TimerEvent: {}
+[2.764011] (robo1_haje) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.809974] (-) TimerEvent: {}
+[2.910560] (-) TimerEvent: {}
+[2.928038] (41068_ignition_bringup) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (find_package):\n'}
+[2.928325] (41068_ignition_bringup) StderrLine: {'line': b'  By not providing "Findros_ign_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[2.928415] (41068_ignition_bringup) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[2.928505] (41068_ignition_bringup) StderrLine: {'line': b'  "ros_ign_interfaces", but CMake did not find one.\n'}
+[2.928584] (41068_ignition_bringup) StderrLine: {'line': b'\n'}
+[2.928659] (41068_ignition_bringup) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[2.928740] (41068_ignition_bringup) StderrLine: {'line': b'  "ros_ign_interfaces" with any of the following names:\n'}
+[2.928849] (41068_ignition_bringup) StderrLine: {'line': b'\n'}
+[2.928926] (41068_ignition_bringup) StderrLine: {'line': b'    ros_ign_interfacesConfig.cmake\n'}
+[2.928998] (41068_ignition_bringup) StderrLine: {'line': b'    ros_ign_interfaces-config.cmake\n'}
+[2.929071] (41068_ignition_bringup) StderrLine: {'line': b'\n'}
+[2.929143] (41068_ignition_bringup) StderrLine: {'line': b'  Add the installation prefix of "ros_ign_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[2.929215] (41068_ignition_bringup) StderrLine: {'line': b'  set "ros_ign_interfaces_DIR" to a directory containing one of the above\n'}
+[2.929288] (41068_ignition_bringup) StderrLine: {'line': b'  files.  If "ros_ign_interfaces" provides a separate development package or\n'}
+[2.929358] (41068_ignition_bringup) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[2.929428] (41068_ignition_bringup) StderrLine: {'line': b'\n'}
+[2.929504] (41068_ignition_bringup) StderrLine: {'line': b'\x1b[0m\n'}
+[2.929585] (41068_ignition_bringup) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.929669] (41068_ignition_bringup) StdoutLine: {'line': b'See also "/home/eleanorlow/robo1/build/41068_ignition_bringup/CMakeFiles/CMakeOutput.log".\n'}
+[2.932594] (41068_ignition_bringup) CommandEnded: {'returncode': 1}
+[3.010824] (-) TimerEvent: {}
+[3.109069] (41068_ignition_bringup) JobEnded: {'identifier': '41068_ignition_bringup', 'rc': 1}
+[3.110900] (-) TimerEvent: {}
+[3.211297] (-) TimerEvent: {}
+[3.219404] (robo1_haje) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.243146] (robo1_haje) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.257433] (robo1_haje) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.310069] (robo1_haje) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.311380] (-) TimerEvent: {}
+[3.348880] (robo1_haje) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.411630] (-) TimerEvent: {}
+[3.512135] (-) TimerEvent: {}
+[3.516745] (robo1_haje) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.533402] (robo1_haje) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.612385] (-) TimerEvent: {}
+[3.712787] (-) TimerEvent: {}
+[3.813187] (-) TimerEvent: {}
+[3.842204] (robo1_haje) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.892042] (robo1_haje) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.913292] (-) TimerEvent: {}
+[3.922131] (robo1_haje) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.013448] (-) TimerEvent: {}
+[4.024336] (robo1_haje) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.113623] (-) TimerEvent: {}
+[4.214070] (-) TimerEvent: {}
+[4.314469] (-) TimerEvent: {}
+[4.347381] (robo1_haje) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.347658] (robo1_haje) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.414592] (-) TimerEvent: {}
+[4.453734] (robo1_haje) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.454547] (robo1_haje) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.514715] (-) TimerEvent: {}
+[4.615133] (-) TimerEvent: {}
+[4.633584] (robo1_haje) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[4.715336] (-) TimerEvent: {}
+[4.815599] (-) TimerEvent: {}
+[4.853296] (robo1_haje) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.14 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[4.915746] (-) TimerEvent: {}
+[4.944254] (robo1_haje) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.015865] (-) TimerEvent: {}
+[5.034339] (robo1_haje) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.085816] (robo1_haje) StdoutLine: {'line': b'-- Generating done\n'}
+[5.093417] (robo1_haje) StdoutLine: {'line': b'-- Build files have been written to: /home/eleanorlow/robo1/build/robo1_haje\n'}
+[5.103542] (robo1_haje) JobEnded: {'identifier': 'robo1_haje', 'rc': 'SIGINT'}
+[5.114029] (-) EventReactorShutdown: {}

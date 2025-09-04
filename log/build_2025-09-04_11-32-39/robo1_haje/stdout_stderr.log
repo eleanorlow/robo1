@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/Movement.dir/src/Movement.cpp.o[0m
+[100%] [32m[1mLinking CXX executable Movement[0m
+[100%] Built target Movement
+-- Install configuration: ""
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/launch
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/launch/launch.py
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/lib/robo1_haje/Movement
+-- Set runtime path of "/home/eleanorlow/robo1/install/robo1_haje/lib/robo1_haje/Movement" to ""
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/ament_index/resource_index/package_run_dependencies/robo1_haje
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/ament_index/resource_index/parent_prefix_path/robo1_haje
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/environment/ament_prefix_path.sh
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/environment/ament_prefix_path.dsv
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/environment/path.sh
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/environment/path.dsv
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/local_setup.bash
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/local_setup.sh
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/local_setup.zsh
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/local_setup.dsv
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/package.dsv
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/ament_index/resource_index/packages/robo1_haje
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/cmake/robo1_hajeConfig.cmake
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/cmake/robo1_hajeConfig-version.cmake
+-- Installing: /home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/package.xml

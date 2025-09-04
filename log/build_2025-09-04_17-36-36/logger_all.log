@@ -1,0 +1,265 @@
+[4.665s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.665s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74e3069fe530>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74e3069fda80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74e3069fda80>>, mixin_verb=('build',))
+[10.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[10.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[10.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[10.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[10.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[10.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[10.118s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eleanorlow/robo1'
+[10.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[10.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[10.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[10.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[10.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[10.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[10.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[10.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[10.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[10.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[10.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[10.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[10.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[10.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[10.179s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[10.179s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[10.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[10.180s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[10.180s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[10.180s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[10.180s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[10.180s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[10.180s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[10.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[10.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[10.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[10.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[10.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[10.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[10.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[10.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[10.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[10.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[10.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[10.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[10.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[10.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[10.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/41068_ignition_bringup) by extensions ['ignore', 'ignore_ament_install']
+[10.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/41068_ignition_bringup) by extension 'ignore'
+[10.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/41068_ignition_bringup) by extension 'ignore_ament_install'
+[10.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/41068_ignition_bringup) by extensions ['colcon_pkg']
+[10.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/41068_ignition_bringup) by extension 'colcon_pkg'
+[10.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/41068_ignition_bringup) by extensions ['colcon_meta']
+[10.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/41068_ignition_bringup) by extension 'colcon_meta'
+[10.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/41068_ignition_bringup) by extensions ['ros']
+[10.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/41068_ignition_bringup) by extension 'ros'
+[10.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/41068_ignition_bringup' with type 'ros.ament_cmake' and name '41068_ignition_bringup'
+[10.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robo1_HAJE) by extensions ['ignore', 'ignore_ament_install']
+[10.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robo1_HAJE) by extension 'ignore'
+[10.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robo1_HAJE) by extension 'ignore_ament_install'
+[10.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robo1_HAJE) by extensions ['colcon_pkg']
+[10.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robo1_HAJE) by extension 'colcon_pkg'
+[10.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robo1_HAJE) by extensions ['colcon_meta']
+[10.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robo1_HAJE) by extension 'colcon_meta'
+[10.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robo1_HAJE) by extensions ['ros']
+[10.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robo1_HAJE) by extension 'ros'
+[10.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Robo1_HAJE' with type 'ros.ament_cmake' and name 'robo1_haje'
+[10.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ignition_bringup) by extensions ['ignore', 'ignore_ament_install']
+[10.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ignition_bringup) by extension 'ignore'
+[10.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ignition_bringup) by extension 'ignore_ament_install'
+[10.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ignition_bringup) by extensions ['colcon_pkg']
+[10.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ignition_bringup) by extension 'colcon_pkg'
+[10.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ignition_bringup) by extensions ['colcon_meta']
+[10.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ignition_bringup) by extension 'colcon_meta'
+[10.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ignition_bringup) by extensions ['ros']
+[10.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_ignition_bringup) by extension 'ros'
+[10.299s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_ignition_bringup' with type 'ros.ament_cmake' and name 'drone_ignition_bringup'
+[10.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[10.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[10.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[10.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[10.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[10.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[10.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[10.700s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/eleanorlow/robo1/install
+[10.754s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 427 installed packages in /opt/ros/humble
+[10.759s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[13.785s] Level 5:colcon.colcon_core.verb:set package '41068_ignition_bringup' build argument 'cmake_args' from command line to 'None'
+[13.785s] Level 5:colcon.colcon_core.verb:set package '41068_ignition_bringup' build argument 'cmake_target' from command line to 'None'
+[13.785s] Level 5:colcon.colcon_core.verb:set package '41068_ignition_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.785s] Level 5:colcon.colcon_core.verb:set package '41068_ignition_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[13.785s] Level 5:colcon.colcon_core.verb:set package '41068_ignition_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[13.785s] Level 5:colcon.colcon_core.verb:set package '41068_ignition_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[13.785s] Level 5:colcon.colcon_core.verb:set package '41068_ignition_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[13.785s] Level 5:colcon.colcon_core.verb:set package '41068_ignition_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[13.785s] Level 5:colcon.colcon_core.verb:set package '41068_ignition_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.785s] DEBUG:colcon.colcon_core.verb:Building package '41068_ignition_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eleanorlow/robo1/build/41068_ignition_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eleanorlow/robo1/install/41068_ignition_bringup', 'merge_install': False, 'path': '/home/eleanorlow/robo1/src/41068_ignition_bringup', 'symlink_install': False, 'test_result_base': None}
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'drone_ignition_bringup' build argument 'cmake_args' from command line to 'None'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'drone_ignition_bringup' build argument 'cmake_target' from command line to 'None'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'drone_ignition_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'drone_ignition_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'drone_ignition_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'drone_ignition_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'drone_ignition_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'drone_ignition_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'drone_ignition_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.786s] DEBUG:colcon.colcon_core.verb:Building package 'drone_ignition_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eleanorlow/robo1/build/drone_ignition_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eleanorlow/robo1/install/drone_ignition_bringup', 'merge_install': False, 'path': '/home/eleanorlow/robo1/src/drone_ignition_bringup', 'symlink_install': False, 'test_result_base': None}
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'robo1_haje' build argument 'cmake_args' from command line to 'None'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'robo1_haje' build argument 'cmake_target' from command line to 'None'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'robo1_haje' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'robo1_haje' build argument 'cmake_clean_cache' from command line to 'False'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'robo1_haje' build argument 'cmake_clean_first' from command line to 'False'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'robo1_haje' build argument 'cmake_force_configure' from command line to 'False'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'robo1_haje' build argument 'ament_cmake_args' from command line to 'None'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'robo1_haje' build argument 'catkin_cmake_args' from command line to 'None'
+[13.786s] Level 5:colcon.colcon_core.verb:set package 'robo1_haje' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.786s] DEBUG:colcon.colcon_core.verb:Building package 'robo1_haje' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eleanorlow/robo1/build/robo1_haje', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eleanorlow/robo1/install/robo1_haje', 'merge_install': False, 'path': '/home/eleanorlow/robo1/src/Robo1_HAJE', 'symlink_install': False, 'test_result_base': None}
+[13.786s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[13.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[13.787s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eleanorlow/robo1/src/41068_ignition_bringup' with build type 'ament_cmake'
+[13.787s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eleanorlow/robo1/src/41068_ignition_bringup'
+[13.837s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[13.838s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.838s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.879s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eleanorlow/robo1/src/drone_ignition_bringup' with build type 'ament_cmake'
+[13.880s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eleanorlow/robo1/src/drone_ignition_bringup'
+[13.880s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.880s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.905s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eleanorlow/robo1/src/Robo1_HAJE' with build type 'ament_cmake'
+[13.905s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eleanorlow/robo1/src/Robo1_HAJE'
+[13.906s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.906s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eleanorlow/robo1/build/41068_ignition_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eleanorlow/robo1/build/41068_ignition_bringup -- -j8 -l8
+[14.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eleanorlow/robo1/build/drone_ignition_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eleanorlow/robo1/build/drone_ignition_bringup -- -j8 -l8
+[14.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eleanorlow/robo1/build/robo1_haje': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eleanorlow/robo1/build/robo1_haje -- -j8 -l8
+[15.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eleanorlow/robo1/build/drone_ignition_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eleanorlow/robo1/build/drone_ignition_bringup -- -j8 -l8
+[15.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eleanorlow/robo1/build/drone_ignition_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eleanorlow/robo1/build/drone_ignition_bringup
+[15.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eleanorlow/robo1/build/41068_ignition_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eleanorlow/robo1/build/41068_ignition_bringup -- -j8 -l8
+[15.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eleanorlow/robo1/build/41068_ignition_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eleanorlow/robo1/build/41068_ignition_bringup
+[15.713s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_ignition_bringup)
+[15.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eleanorlow/robo1/build/drone_ignition_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eleanorlow/robo1/build/drone_ignition_bringup
+[15.818s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/drone_ignition_bringup' for CMake module files
+[15.819s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/drone_ignition_bringup' for CMake config files
+[15.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_ignition_bringup', 'cmake_prefix_path')
+[15.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/hook/cmake_prefix_path.ps1'
+[15.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/hook/cmake_prefix_path.dsv'
+[15.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/hook/cmake_prefix_path.sh'
+[15.887s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/drone_ignition_bringup/bin'
+[15.887s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/drone_ignition_bringup/lib/pkgconfig/drone_ignition_bringup.pc'
+[15.887s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/drone_ignition_bringup/lib/python3.10/site-packages'
+[15.888s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/drone_ignition_bringup/bin'
+[15.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/package.ps1'
+[15.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/package.dsv'
+[15.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/package.sh'
+[15.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/package.bash'
+[15.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/package.zsh'
+[15.946s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eleanorlow/robo1/install/drone_ignition_bringup/share/colcon-core/packages/drone_ignition_bringup)
+[15.947s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_ignition_bringup)
+[15.948s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/drone_ignition_bringup' for CMake module files
+[15.949s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/drone_ignition_bringup' for CMake config files
+[15.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_ignition_bringup', 'cmake_prefix_path')
+[15.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/hook/cmake_prefix_path.ps1'
+[15.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/hook/cmake_prefix_path.dsv'
+[15.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/hook/cmake_prefix_path.sh'
+[15.952s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/drone_ignition_bringup/bin'
+[15.952s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/drone_ignition_bringup/lib/pkgconfig/drone_ignition_bringup.pc'
+[15.952s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/drone_ignition_bringup/lib/python3.10/site-packages'
+[15.952s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/drone_ignition_bringup/bin'
+[15.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/package.ps1'
+[15.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/package.dsv'
+[15.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/package.sh'
+[15.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/package.bash'
+[15.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/drone_ignition_bringup/share/drone_ignition_bringup/package.zsh'
+[15.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eleanorlow/robo1/install/drone_ignition_bringup/share/colcon-core/packages/drone_ignition_bringup)
+[15.955s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(41068_ignition_bringup)
+[15.955s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/41068_ignition_bringup' for CMake module files
+[15.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eleanorlow/robo1/build/41068_ignition_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eleanorlow/robo1/build/41068_ignition_bringup
+[15.956s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/41068_ignition_bringup' for CMake config files
+[15.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('41068_ignition_bringup', 'cmake_prefix_path')
+[15.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/hook/cmake_prefix_path.ps1'
+[15.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/hook/cmake_prefix_path.dsv'
+[15.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/hook/cmake_prefix_path.sh'
+[15.958s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/41068_ignition_bringup/bin'
+[15.958s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/41068_ignition_bringup/lib/pkgconfig/41068_ignition_bringup.pc'
+[15.958s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/41068_ignition_bringup/lib/python3.10/site-packages'
+[15.958s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/41068_ignition_bringup/bin'
+[15.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/package.ps1'
+[15.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/package.dsv'
+[15.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/package.sh'
+[15.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/package.bash'
+[15.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/package.zsh'
+[15.959s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eleanorlow/robo1/install/41068_ignition_bringup/share/colcon-core/packages/41068_ignition_bringup)
+[15.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(41068_ignition_bringup)
+[15.960s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/41068_ignition_bringup' for CMake module files
+[15.960s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/41068_ignition_bringup' for CMake config files
+[15.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('41068_ignition_bringup', 'cmake_prefix_path')
+[15.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/hook/cmake_prefix_path.ps1'
+[15.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/hook/cmake_prefix_path.dsv'
+[15.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/hook/cmake_prefix_path.sh'
+[15.983s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/41068_ignition_bringup/bin'
+[15.984s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/41068_ignition_bringup/lib/pkgconfig/41068_ignition_bringup.pc'
+[15.984s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/41068_ignition_bringup/lib/python3.10/site-packages'
+[15.985s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/41068_ignition_bringup/bin'
+[15.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/package.ps1'
+[15.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/package.dsv'
+[15.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/package.sh'
+[15.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/package.bash'
+[15.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/41068_ignition_bringup/share/41068_ignition_bringup/package.zsh'
+[15.990s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eleanorlow/robo1/install/41068_ignition_bringup/share/colcon-core/packages/41068_ignition_bringup)
+[16.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eleanorlow/robo1/build/robo1_haje' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eleanorlow/robo1/build/robo1_haje -- -j8 -l8
+[16.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eleanorlow/robo1/build/robo1_haje': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eleanorlow/robo1/build/robo1_haje
+[16.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo1_haje)
+[16.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eleanorlow/robo1/build/robo1_haje' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eleanorlow/robo1/build/robo1_haje
+[16.096s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/robo1_haje' for CMake module files
+[16.096s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/robo1_haje' for CMake config files
+[16.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo1_haje', 'cmake_prefix_path')
+[16.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/hook/cmake_prefix_path.ps1'
+[16.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/hook/cmake_prefix_path.dsv'
+[16.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/hook/cmake_prefix_path.sh'
+[16.098s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/robo1_haje/lib'
+[16.098s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/robo1_haje/bin'
+[16.098s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/robo1_haje/lib/pkgconfig/robo1_haje.pc'
+[16.099s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/robo1_haje/lib/python3.10/site-packages'
+[16.099s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/robo1_haje/bin'
+[16.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/package.ps1'
+[16.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/package.dsv'
+[16.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/package.sh'
+[16.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/package.bash'
+[16.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/package.zsh'
+[16.100s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eleanorlow/robo1/install/robo1_haje/share/colcon-core/packages/robo1_haje)
+[16.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo1_haje)
+[16.101s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/robo1_haje' for CMake module files
+[16.101s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/robo1_haje' for CMake config files
+[16.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo1_haje', 'cmake_prefix_path')
+[16.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/hook/cmake_prefix_path.ps1'
+[16.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/hook/cmake_prefix_path.dsv'
+[16.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/hook/cmake_prefix_path.sh'
+[16.102s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/robo1_haje/lib'
+[16.102s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/robo1_haje/bin'
+[16.102s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/robo1_haje/lib/pkgconfig/robo1_haje.pc'
+[16.102s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/robo1_haje/lib/python3.10/site-packages'
+[16.103s] Level 1:colcon.colcon_core.environment:checking '/home/eleanorlow/robo1/install/robo1_haje/bin'
+[16.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/package.ps1'
+[16.103s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/package.dsv'
+[16.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/package.sh'
+[16.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/package.bash'
+[16.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleanorlow/robo1/install/robo1_haje/share/robo1_haje/package.zsh'
+[16.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eleanorlow/robo1/install/robo1_haje/share/colcon-core/packages/robo1_haje)
+[16.104s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.105s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.105s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.105s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.193s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.194s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.194s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.214s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.214s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eleanorlow/robo1/install/local_setup.ps1'
+[16.216s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eleanorlow/robo1/install/_local_setup_util_ps1.py'
+[16.218s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eleanorlow/robo1/install/setup.ps1'
+[16.219s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eleanorlow/robo1/install/local_setup.sh'
+[16.220s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eleanorlow/robo1/install/_local_setup_util_sh.py'
+[16.220s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eleanorlow/robo1/install/setup.sh'
+[16.221s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eleanorlow/robo1/install/local_setup.bash'
+[16.222s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eleanorlow/robo1/install/setup.bash'
+[16.223s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eleanorlow/robo1/install/local_setup.zsh'
+[16.223s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eleanorlow/robo1/install/setup.zsh'
