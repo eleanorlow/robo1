@@ -51,120 +51,99 @@
       <pose>0 0 0 0 0 0</pose>
     </include>
 
+    <!-- BUsh model bush_3 from gazebo-vegetation -->
     <include>
       <uri>
         model://bush_3
       </uri>
-      <name>bush_3</name>
-      <pose>0 7.0 0 0 0 0</pose>
+      <name>bush_3.0</name>
+      <pose>0 4.0 0 1.5707 0 0</pose>
     </include>
 
     <include>
       <uri>
-        model://bush_4
+        model://bush_3
       </uri>
-      <name>bush_4</name>
-      <pose>0 0 7.0 0 0 0</pose>
+      <name>bush_3.1</name>
+      <pose>0 -5.0 0 1.5707 0 0</pose>
     </include>
 
     <include>
       <uri>
-        model://bush_5
+        model://bush_3
       </uri>
-      <name>bush_5</name>
-      <pose>7.0 0 0 0 0 0</pose>
+      <name>bush_3.2</name>
+      <pose>-7 0.2 0 1.5707 0 0</pose>
+    </include>
+
+    <!-- Tree models tree_1 from gazebo-vegetation -->
+    <include>
+      <uri>
+        model://tree_1
+      </uri>
+      <name>tree_1.0</name>
+      <pose>-4.4 -5 0 1.5707 0 0</pose>
     </include>
 
     <include>
       <uri>
         model://tree_1
       </uri>
-      <name>tree_1</name>
-      <pose>0 0 0 0 7.0 0</pose>
+      <name>tree_1.1</name>
+      <pose>2 1 0 1.5707 0 0</pose>
+    </include>
+
+    <!-- Tree models tree_2 from gazebo-vegetation -->
+    <include>
+      <uri>
+        model://tree_2
+      </uri>
+      <name>tree_2.0</name>
+      <pose>-1 -4 0 1.5707 0 0</pose>
     </include>
 
     <include>
       <uri>
         model://tree_2
       </uri>
-      <name>tree_2</name>
-      <pose>0 0 0 0 0 7.0</pose>
+      <name>tree_2.1</name>
+      <pose>-3 -1 0 1.5707 0 0</pose>
     </include>
 
     <include>
       <uri>
-        model://tree_3
+        model://tree_2
       </uri>
-      <name>tree_3</name>
-      <pose>1.0 3.0 0 0 0 0</pose>
+      <name>tree_2.3</name>
+      <pose>2 6 0 1.5707 0 0</pose>
     </include>
 
     <include>
       <uri>
-        model://tree_4
+        model://tree_2
       </uri>
-      <name>tree_4</name>
-      <pose>1.0 2.0 0 0 0 0</pose>
-    </include>
-  
-    <include>
-      <uri>
-        model://tree_5
-      </uri>
-      <name>tree_5</name>
-      <pose>1.0 3.0 4.0 0 0 0</pose>
-    </include>
-
-    <include>
-      <uri>
-        model://tree_6
-      </uri>
-      <name>tree_6</name>
-      <pose>1.0 3.0 8.0 0 0 0</pose>
-    </include>
-
-    <include>
-      <uri>
-        model://tree_7
-      </uri>
-      <name>tree_7</name>
-      <pose>7.0 3.0 0 0 0 0</pose>
-    </include>
-
-    <include>
-      <uri>
-        model://tree_8
-      </uri>
-      <name>tree_8</name>
-      <pose>1.0 5.0 8.0 0 0 0</pose>
-    </include>
-
-    <include>
-      <uri>
-        model://tree_9
-      </uri>
-      <name>tree_9</name>
-      <pose>3.0 5.0 2.0 0 0 0</pose>
+      <name>tree_2.4</name>
+      <pose>-2 6.7 0 1.5707 0 0</pose>
     </include>
 
 
-    <!-- Oak tree -->
+    <!-- Oak trees -->
     <include>
       <uri>
         https://fuel.gazebosim.org/1.0/OpenRobotics/models/Oak%20tree
       </uri>
       <name>oak1</name>
-      <pose>0 3.0 0 0 0 0</pose>
+      <pose>-3 3.0 0 0 0 0</pose>
     </include>
-    
-    <!-- Pine tree -->
+
     <include>
       <uri>
-        https://fuel.gazebosim.org/1.0/OpenRobotics/models/Pine%20tree
+        https://fuel.gazebosim.org/1.0/OpenRobotics/models/Oak%20tree
       </uri>
-      <name>pine1</name>
-      <pose>5.0 0.0 0 0 0 0</pose>
+      <name>oak2</name>
+      <pose>0.5 -2.3 0 0 0 0</pose>
     </include>
+    
 
   </world>
 </sdf>

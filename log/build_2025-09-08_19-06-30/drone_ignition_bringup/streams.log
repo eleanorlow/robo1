@@ -1,0 +1,18 @@
+[0.130s] Invoking command in '/home/eleanorlow/robo1/build/drone_ignition_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eleanorlow/robo1/src/drone_ignition_bringup -DCMAKE_INSTALL_PREFIX=/home/eleanorlow/robo1/install/drone_ignition_bringup
+[0.721s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.616s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.952s] -- Found ros_ign_interfaces: 0.244.20 (/opt/ros/humble/share/ros_ign_interfaces/cmake)
+[2.437s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.496s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.599s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.760s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.857s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.470s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.675s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.708s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.710s] -- Added test 'lint_cmake' to check CMake code style
+[3.712s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.717s] -- Added test 'xmllint' to check XML markup files
+[3.719s] -- Configuring done
+[3.739s] -- Generating done
+[3.742s] -- Build files have been written to: /home/eleanorlow/robo1/build/drone_ignition_bringup

@@ -1,0 +1,40 @@
+[0.132s] Invoking command in '/home/eleanorlow/robo1/build/gazebo_vegetation': /usr/bin/cmake /home/eleanorlow/robo1/src/gazebo-vegetation-master/gazebo_vegetation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/eleanorlow/robo1/install/gazebo_vegetation
+[0.452s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.452s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.452s]   CMake.
+[0.452s] 
+[0.452s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.452s]   CMake that the project does not need compatibility with older versions.
+[0.452s] 
+[0.452s] [0m
+[1.901s] -- The C compiler identification is GNU 11.4.0
+[2.841s] -- The CXX compiler identification is GNU 11.4.0
+[2.874s] -- Detecting C compiler ABI info
+[3.044s] -- Detecting C compiler ABI info - done
+[3.050s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.053s] -- Detecting C compile features
+[3.073s] -- Detecting C compile features - done
+[3.086s] -- Detecting CXX compiler ABI info
+[3.238s] -- Detecting CXX compiler ABI info - done
+[3.244s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.244s] -- Detecting CXX compile features
+[3.245s] -- Detecting CXX compile features - done
+[3.400s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[3.401s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.401s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.401s]   CMake did not find one.
+[3.401s] 
+[3.401s]   Could not find a package configuration file provided by "catkin" with any
+[3.401s]   of the following names:
+[3.401s] 
+[3.401s]     catkinConfig.cmake
+[3.401s]     catkin-config.cmake
+[3.401s] 
+[3.401s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.401s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.401s]   provides a separate development package or SDK, be sure it has been
+[3.401s]   installed.
+[3.401s] 
+[3.401s] [0m
+[3.401s] -- Configuring incomplete, errors occurred!
+[3.401s] See also "/home/eleanorlow/robo1/build/gazebo_vegetation/CMakeFiles/CMakeOutput.log".

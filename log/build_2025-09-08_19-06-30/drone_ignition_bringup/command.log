@@ -1,0 +1,1 @@
+Invoking command in '/home/eleanorlow/robo1/build/drone_ignition_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eleanorlow/robo1/src/drone_ignition_bringup -DCMAKE_INSTALL_PREFIX=/home/eleanorlow/robo1/install/drone_ignition_bringup

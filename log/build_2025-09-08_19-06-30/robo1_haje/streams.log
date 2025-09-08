@@ -1,0 +1,2 @@
+[0.151s] Invoking command in '/home/eleanorlow/robo1/build/robo1_haje': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eleanorlow/robo1/build/robo1_haje -- -j8 -l8
+[2.032s] [100%] Built target Movement

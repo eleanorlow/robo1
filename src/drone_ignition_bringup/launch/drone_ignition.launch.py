@@ -70,7 +70,7 @@ def generate_launch_description():
         'world',
         default_value='simple_trees',
         description='Which world to load',
-        choices=['simple_trees', 'large_demo', 'forestland_small']
+        choices=['simple_trees', 'large_demo', 'forestland_small', 'naked_forestland_small']
     )
     ld.add_action(world_launch_arg)
     gazebo = IncludeLaunchDescription(
@@ -90,7 +90,7 @@ def generate_launch_description():
         executable='create',
         output='screen',
         parameters=[{'use_sim_time': use_sim_time}],
-        arguments=['-topic', '/robot_description', '-z', '2.0'] # z is height above ground
+        arguments=['-topic', '/robot_description', '-x', '6', '-y', '-4', '-z', '0.1']
     )
     ld.add_action(robot_spawner)
 

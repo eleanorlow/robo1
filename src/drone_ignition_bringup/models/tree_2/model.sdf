@@ -17,7 +17,7 @@
         <geometry>
           <mesh>
 
-            <scale>5 5 5</scale>
+            <scale>2 2 2</scale>
             <uri>model://tree_2/meshes/tree_2.obj</uri>
           </mesh>
         </geometry>
